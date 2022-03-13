@@ -71,5 +71,8 @@ group :test do
 end
 
 group :production do
+  # gem "pg" for PostgresSQL in production
   gem 'pg'
+  ##
+  
 end
